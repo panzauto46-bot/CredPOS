@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "322176258286",
+    "project_id": "creadpos",
+    "storage_bucket": "creadpos.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:322176258286:android:687de02e3d6b063b26e3ff",
+        "android_client_info": {
+          "package_name": "com.credpos.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "322176258286-sdi2vblqdnbhgm4psdb4iagrefjjvute.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.credpos.app",
+            "certificate_hash": "5ba65f3ae9a8b7a8e4373fa95acdc49a7ead272b"
+          }
+        },
+        {
+          "client_id": "322176258286-v0cel8753hpqmq5vgnssj8ggd1lpdu2d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwCNom-iWVP08ocPd9uSCmncCsGT4V5Sc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "322176258286-v0cel8753hpqmq5vgnssj8ggd1lpdu2d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

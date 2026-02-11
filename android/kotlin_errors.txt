@@ -1,0 +1,863 @@
+﻿Initialized native services in: C:\Users\PANZ AUTO\.gradle\native
+Initialized jansi services in: C:\Users\PANZ AUTO\.gradle\native
+The client will now receive all logging from the daemon (pid: 16592). The daemon log file: C:\Users\PANZ AUTO\.gradle\daemon\8.14.3\daemon-16592.out.log
+Starting 5th build in daemon [uptime: 5 mins 32.935 secs, performance: 98%, GC rate: 0.00/s, heap usage: 0% of 2 GiB]
+Using 8 worker leases.
+Now considering [C:\Users\PANZ AUTO\Documents\CredPOS\android] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Settings evaluated using settings file 'C:\Users\PANZ AUTO\Documents\CredPOS\android\settings.gradle'.
+Projects loaded. Root project using build file 'C:\Users\PANZ AUTO\Documents\CredPOS\android\build.gradle'.
+Included projects: [root project 'android', project ':app', project ':capacitor-android', project ':capacitor-app', project ':capacitor-cordova-android-plugins', project ':capacitor-firebase-authentication']
+
+> Configure project :
+Evaluating root project 'android' using build file 'C:\Users\PANZ AUTO\Documents\CredPOS\android\build.gradle'.
+
+> Configure project :app
+Evaluating project ':app' using build file 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\build.gradle'.
+Using default execution profile
+Using Kotlin Gradle Plugin gradle82 variant
+WARNING: Using flatDir should be avoided because it doesn't support any meta-data formats.
+
+> Configure project :capacitor-android
+Evaluating project ':capacitor-android' using build file 'C:\Users\PANZ AUTO\Documents\CredPOS\node_modules\@capacitor\android\capacitor\build.gradle'.
+Using default execution profile
+
+> Configure project :capacitor-app
+Evaluating project ':capacitor-app' using build file 'C:\Users\PANZ AUTO\Documents\CredPOS\node_modules\@capacitor\app\android\build.gradle'.
+Using default execution profile
+
+> Configure project :capacitor-cordova-android-plugins
+Evaluating project ':capacitor-cordova-android-plugins' using build file 'C:\Users\PANZ AUTO\Documents\CredPOS\android\capacitor-cordova-android-plugins\build.gradle'.
+Using default execution profile
+WARNING: Using flatDir should be avoided because it doesn't support any meta-data formats.
+
+> Configure project :capacitor-firebase-authentication
+Evaluating project ':capacitor-firebase-authentication' using build file 'C:\Users\PANZ AUTO\Documents\CredPOS\node_modules\@capacitor-firebase\authentication\android\build.gradle'.
+Using default execution profile
+All projects evaluated.
+Task name matched 'compileDebugKotlin'
+Selected primary task 'compileDebugKotlin' from project :
+Tasks to be executed: [task ':app:checkKotlinGradlePluginConfigurationErrors', task ':app:preBuild', task ':app:preDebugBuild', task ':capacitor-android:preBuild', task ':capacitor-android:preDebugBuild', task ':capacitor-android:writeDebugAarMetadata', task ':capacitor-app:preBuild', task ':capacitor-app:preDebugBuild', task ':capacitor-app:writeDebugAarMetadata', task ':capacitor-cordova-android-plugins:preBuild', task ':capacitor-cordova-android-plugins:preDebugBuild', task ':capacitor-cordova-android-plugins:writeDebugAarMetadata', task ':capacitor-firebase-authentication:preBuild', task ':capacitor-firebase-authentication:preDebugBuild', task ':capacitor-firebase-authentication:writeDebugAarMetadata', task ':app:checkDebugAarMetadata', task ':capacitor-android:processDebugNavigationResources', task ':capacitor-app:processDebugNavigationResources', task ':capacitor-cordova-android-plugins:processDebugNavigationResources', task ':capacitor-firebase-authentication:processDebugNavigationResources', task ':app:processDebugNavigationResources', task ':app:compileDebugNavigationResources', task ':app:generateDebugResValues', task ':app:processDebugGoogleServices', task ':capacitor-android:generateDebugResValues', task ':capacitor-android:generateDebugResources', task ':capacitor-android:packageDebugResources', task ':capacitor-app:generateDebugResValues', task ':capacitor-app:generateDebugResources', task ':capacitor-app:packageDebugResources', task ':capacitor-cordova-android-plugins:generateDebugResValues', task ':capacitor-cordova-android-plugins:generateDebugResources', task ':capacitor-cordova-android-plugins:packageDebugResources', task ':capacitor-firebase-authentication:generateDebugResValues', task ':capacitor-firebase-authentication:generateDebugResources', task ':capacitor-firebase-authentication:packageDebugResources', task ':app:mapDebugSourceSetPaths', task ':app:generateDebugResources', task ':app:mergeDebugResources', task ':app:packageDebugResources', task ':app:parseDebugLocalResources', task ':app:createDebugCompatibleScreenManifests', task ':app:extractDeepLinksDebug', task ':capacitor-android:extractDeepLinksDebug', task ':capacitor-android:processDebugManifest', task ':capacitor-app:extractDeepLinksDebug', task ':capacitor-app:processDebugManifest', task ':capacitor-cordova-android-plugins:extractDeepLinksDebug', task ':capacitor-cordova-android-plugins:processDebugManifest', task ':capacitor-firebase-authentication:extractDeepLinksDebug', task ':capacitor-firebase-authentication:processDebugManifest', task ':app:processDebugMainManifest', task ':app:processDebugManifest', task ':app:processDebugManifestForPackage', task ':capacitor-android:compileDebugLibraryResources', task ':capacitor-android:parseDebugLocalResources', task ':capacitor-android:generateDebugRFile', task ':capacitor-app:compileDebugLibraryResources', task ':capacitor-app:parseDebugLocalResources', task ':capacitor-app:generateDebugRFile', task ':capacitor-cordova-android-plugins:compileDebugLibraryResources', task ':capacitor-cordova-android-plugins:parseDebugLocalResources', task ':capacitor-cordova-android-plugins:generateDebugRFile', task ':capacitor-firebase-authentication:compileDebugLibraryResources', task ':capacitor-firebase-authentication:parseDebugLocalResources', task ':capacitor-firebase-authentication:generateDebugRFile', task ':app:processDebugResources', task ':capacitor-android:javaPreCompileDebug', task ':capacitor-android:compileDebugJavaWithJavac', task ':capacitor-android:bundleLibCompileToJarDebug', task ':capacitor-app:javaPreCompileDebug', task ':capacitor-app:compileDebugJavaWithJavac', task ':capacitor-app:bundleLibCompileToJarDebug', task ':capacitor-cordova-android-plugins:javaPreCompileDebug', task ':capacitor-cordova-android-plugins:compileDebugJavaWithJavac', task ':capacitor-cordova-android-plugins:bundleLibCompileToJarDebug', task ':capacitor-firebase-authentication:javaPreCompileDebug', task ':capacitor-firebase-authentication:compileDebugJavaWithJavac', task ':capacitor-firebase-authentication:bundleLibCompileToJarDebug', task ':app:compileDebugKotlin']
+Tasks that were excluded: []
+Resolve mutations for :app:checkKotlinGradlePluginConfigurationErrors (Thread[#591,Execution worker,5,main]) started.
+:app:checkKotlinGradlePluginConfigurationErrors (Thread[#591,Execution worker,5,main]) started.
+
+> Task :app:checkKotlinGradlePluginConfigurationErrors
+Caching disabled for task ':app:checkKotlinGradlePluginConfigurationErrors' because:
+  Build cache is disabled
+Task ':app:checkKotlinGradlePluginConfigurationErrors' is not up-to-date because:
+  Task has not declared any outputs despite executing actions.
+Resolve mutations for :app:preBuild (Thread[#591,Execution worker,5,main]) started.
+:app:preBuild (Thread[#591,Execution worker,5,main]) started.
+
+> Task :app:preBuild UP-TO-DATE
+Skipping task ':app:preBuild' as it has no actions.
+Resolve mutations for :app:preDebugBuild (Thread[#591,Execution worker,5,main]) started.
+:app:preDebugBuild (Thread[#591,Execution worker,5,main]) started.
+
+> Task :app:preDebugBuild UP-TO-DATE
+Skipping task ':app:preDebugBuild' as it has no actions.
+Resolve mutations for :capacitor-android:preBuild (Thread[#591,Execution worker,5,main]) started.
+:capacitor-android:preBuild (Thread[#591,Execution worker,5,main]) started.
+
+> Task :capacitor-android:preBuild UP-TO-DATE
+Skipping task ':capacitor-android:preBuild' as it has no actions.
+Resolve mutations for :capacitor-android:preDebugBuild (Thread[#591,Execution worker,5,main]) started.
+:capacitor-android:preDebugBuild (Thread[#591,Execution worker,5,main]) started.
+
+> Task :capacitor-android:preDebugBuild UP-TO-DATE
+Skipping task ':capacitor-android:preDebugBuild' as it has no actions.
+Resolve mutations for :capacitor-android:writeDebugAarMetadata (Thread[#591,Execution worker,5,main]) started.
+:capacitor-android:writeDebugAarMetadata (Thread[#591,Execution worker,5,main]) started.
+
+> Task :capacitor-android:writeDebugAarMetadata UP-TO-DATE
+Caching disabled for task ':capacitor-android:writeDebugAarMetadata' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':capacitor-android:writeDebugAarMetadata' as it is up-to-date.
+work action resolve aar-metadata.properties (project :capacitor-android) (Thread[#591,Execution worker,5,main]) started.
+Resolve mutations for :capacitor-app:preBuild (Thread[#591,Execution worker,5,main]) started.
+:capacitor-app:preBuild (Thread[#591,Execution worker,5,main]) started.
+
+> Task :capacitor-app:preBuild UP-TO-DATE
+Skipping task ':capacitor-app:preBuild' as it has no actions.
+Resolve mutations for :capacitor-app:preDebugBuild (Thread[#591,Execution worker,5,main]) started.
+:capacitor-app:preDebugBuild (Thread[#591,Execution worker,5,main]) started.
+
+> Task :capacitor-app:preDebugBuild UP-TO-DATE
+Skipping task ':capacitor-app:preDebugBuild' as it has no actions.
+Resolve mutations for :capacitor-app:writeDebugAarMetadata (Thread[#591,Execution worker,5,main]) started.
+:capacitor-app:writeDebugAarMetadata (Thread[#591,Execution worker,5,main]) started.
+
+> Task :capacitor-app:writeDebugAarMetadata UP-TO-DATE
+Caching disabled for task ':capacitor-app:writeDebugAarMetadata' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':capacitor-app:writeDebugAarMetadata' as it is up-to-date.
+work action resolve aar-metadata.properties (project :capacitor-app) (Thread[#591,Execution worker,5,main]) started.
+Resolve mutations for :capacitor-cordova-android-plugins:preBuild (Thread[#591,Execution worker,5,main]) started.
+:capacitor-cordova-android-plugins:preBuild (Thread[#591,Execution worker,5,main]) started.
+
+> Task :capacitor-cordova-android-plugins:preBuild UP-TO-DATE
+Skipping task ':capacitor-cordova-android-plugins:preBuild' as it has no actions.
+Resolve mutations for :capacitor-cordova-android-plugins:preDebugBuild (Thread[#591,Execution worker,5,main]) started.
+:capacitor-cordova-android-plugins:preDebugBuild (Thread[#591,Execution worker,5,main]) started.
+
+> Task :capacitor-cordova-android-plugins:preDebugBuild UP-TO-DATE
+Skipping task ':capacitor-cordova-android-plugins:preDebugBuild' as it has no actions.
+Resolve mutations for :capacitor-cordova-android-plugins:writeDebugAarMetadata (Thread[#591,Execution worker,5,main]) started.
+:capacitor-cordova-android-plugins:writeDebugAarMetadata (Thread[#591,Execution worker,5,main]) started.
+
+> Task :capacitor-cordova-android-plugins:writeDebugAarMetadata UP-TO-DATE
+Caching disabled for task ':capacitor-cordova-android-plugins:writeDebugAarMetadata' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':capacitor-cordova-android-plugins:writeDebugAarMetadata' as it is up-to-date.
+work action resolve aar-metadata.properties (project :capacitor-cordova-android-plugins) (Thread[#591,Execution worker,5,main]) started.
+Resolve mutations for :capacitor-firebase-authentication:preBuild (Thread[#594,Execution worker Thread 4,5,main]) started.
+:capacitor-firebase-authentication:preBuild (Thread[#594,Execution worker Thread 4,5,main]) started.
+
+> Task :capacitor-firebase-authentication:preBuild UP-TO-DATE
+Skipping task ':capacitor-firebase-authentication:preBuild' as it has no actions.
+Resolve mutations for :capacitor-firebase-authentication:preDebugBuild (Thread[#594,Execution worker Thread 4,5,main]) started.
+:capacitor-firebase-authentication:preDebugBuild (Thread[#594,Execution worker Thread 4,5,main]) started.
+
+> Task :capacitor-firebase-authentication:preDebugBuild UP-TO-DATE
+Skipping task ':capacitor-firebase-authentication:preDebugBuild' as it has no actions.
+Resolve mutations for :capacitor-firebase-authentication:writeDebugAarMetadata (Thread[#594,Execution worker Thread 4,5,main]) started.
+:capacitor-firebase-authentication:writeDebugAarMetadata (Thread[#594,Execution worker Thread 4,5,main]) started.
+
+> Task :capacitor-firebase-authentication:writeDebugAarMetadata UP-TO-DATE
+Caching disabled for task ':capacitor-firebase-authentication:writeDebugAarMetadata' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':capacitor-firebase-authentication:writeDebugAarMetadata' as it is up-to-date.
+work action resolve aar-metadata.properties (project :capacitor-firebase-authentication) (Thread[#594,Execution worker Thread 4,5,main]) started.
+Resolve mutations for :app:checkDebugAarMetadata (Thread[#590,included builds,5,main]) started.
+:app:checkDebugAarMetadata (Thread[#590,included builds,5,main]) started.
+
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\node_modules\@capacitor-firebase\authentication\android\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\node_modules\@capacitor\app\android\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\node_modules\@capacitor\android\capacitor\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\capacitor-cordova-android-plugins\src\main\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\node_modules\@capacitor-firebase\authentication\android\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\node_modules\@capacitor\app\android\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\node_modules\@capacitor\android\capacitor\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\capacitor-cordova-android-plugins\src\main\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\node_modules\@capacitor-firebase\authentication\android\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\node_modules\@capacitor\app\android\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\node_modules\@capacitor\android\capacitor\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\capacitor-cordova-android-plugins\src\main\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\node_modules\@capacitor-firebase\authentication\android\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\node_modules\@capacitor\app\android\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\node_modules\@capacitor\android\capacitor\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\capacitor-cordova-android-plugins\src\main\libs', not found
+Caching disabled for task ':app:checkDebugAarMetadata' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:checkDebugAarMetadata' as it is up-to-date.
+Resolve mutations for :capacitor-android:processDebugNavigationResources (Thread[#590,included builds,5,main]) started.
+:capacitor-android:processDebugNavigationResources (Thread[#590,included builds,5,main]) started.
+
+> Task :capacitor-android:processDebugNavigationResources UP-TO-DATE
+Caching disabled for task ':capacitor-android:processDebugNavigationResources' because:
+  Build cache is disabled
+Skipping task ':capacitor-android:processDebugNavigationResources' as it is up-to-date.
+work action resolve debug (project :capacitor-android) (Thread[#590,included builds,5,main]) started.
+Resolve mutations for :capacitor-app:processDebugNavigationResources (Thread[#590,included builds,5,main]) started.
+:capacitor-app:processDebugNavigationResources (Thread[#590,included builds,5,main]) started.
+
+> Task :capacitor-app:processDebugNavigationResources UP-TO-DATE
+Caching disabled for task ':capacitor-app:processDebugNavigationResources' because:
+  Build cache is disabled
+Skipping task ':capacitor-app:processDebugNavigationResources' as it is up-to-date.
+work action resolve debug (project :capacitor-app) (Thread[#590,included builds,5,main]) started.
+Resolve mutations for :capacitor-cordova-android-plugins:processDebugNavigationResources (Thread[#590,included builds,5,main]) started.
+:capacitor-cordova-android-plugins:processDebugNavigationResources (Thread[#590,included builds,5,main]) started.
+
+> Task :capacitor-cordova-android-plugins:processDebugNavigationResources UP-TO-DATE
+Caching disabled for task ':capacitor-cordova-android-plugins:processDebugNavigationResources' because:
+  Build cache is disabled
+Skipping task ':capacitor-cordova-android-plugins:processDebugNavigationResources' as it is up-to-date.
+work action resolve debug (project :capacitor-cordova-android-plugins) (Thread[#590,included builds,5,main]) started.
+Resolve mutations for :capacitor-firebase-authentication:processDebugNavigationResources (Thread[#590,included builds,5,main]) started.
+:capacitor-firebase-authentication:processDebugNavigationResources (Thread[#590,included builds,5,main]) started.
+
+> Task :capacitor-firebase-authentication:processDebugNavigationResources UP-TO-DATE
+Caching disabled for task ':capacitor-firebase-authentication:processDebugNavigationResources' because:
+  Build cache is disabled
+Skipping task ':capacitor-firebase-authentication:processDebugNavigationResources' as it is up-to-date.
+work action resolve debug (project :capacitor-firebase-authentication) (Thread[#590,included builds,5,main]) started.
+Resolve mutations for :app:processDebugNavigationResources (Thread[#590,included builds,5,main]) started.
+:app:processDebugNavigationResources (Thread[#590,included builds,5,main]) started.
+
+> Task :app:processDebugNavigationResources UP-TO-DATE
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\node_modules\@capacitor-firebase\authentication\android\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\node_modules\@capacitor\app\android\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\node_modules\@capacitor\android\capacitor\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\capacitor-cordova-android-plugins\src\main\libs', not found
+Caching disabled for task ':app:processDebugNavigationResources' because:
+  Build cache is disabled
+Skipping task ':app:processDebugNavigationResources' as it is up-to-date.
+Resolve mutations for :app:compileDebugNavigationResources (Thread[#591,Execution worker,5,main]) started.
+:app:compileDebugNavigationResources (Thread[#591,Execution worker,5,main]) started.
+
+> Task :app:compileDebugNavigationResources UP-TO-DATE
+Caching disabled for task ':app:compileDebugNavigationResources' because:
+  Build cache is disabled
+Skipping task ':app:compileDebugNavigationResources' as it is up-to-date.
+Resolve mutations for :app:generateDebugResValues (Thread[#591,Execution worker,5,main]) started.
+:app:generateDebugResValues (Thread[#591,Execution worker,5,main]) started.
+
+> Task :app:generateDebugResValues UP-TO-DATE
+Caching disabled for task ':app:generateDebugResValues' because:
+  Build cache is disabled
+Skipping task ':app:generateDebugResValues' as it is up-to-date.
+Resolve mutations for :app:processDebugGoogleServices (Thread[#591,Execution worker,5,main]) started.
+:app:processDebugGoogleServices (Thread[#591,Execution worker,5,main]) started.
+
+> Task :app:processDebugGoogleServices UP-TO-DATE
+Caching disabled for task ':app:processDebugGoogleServices' because:
+  Build cache is disabled
+Skipping task ':app:processDebugGoogleServices' as it is up-to-date.
+Resolve mutations for :capacitor-android:generateDebugResValues (Thread[#591,Execution worker,5,main]) started.
+:capacitor-android:generateDebugResValues (Thread[#591,Execution worker,5,main]) started.
+
+> Task :capacitor-android:generateDebugResValues UP-TO-DATE
+Caching disabled for task ':capacitor-android:generateDebugResValues' because:
+  Build cache is disabled
+Skipping task ':capacitor-android:generateDebugResValues' as it is up-to-date.
+Resolve mutations for :capacitor-android:generateDebugResources (Thread[#591,Execution worker,5,main]) started.
+:capacitor-android:generateDebugResources (Thread[#591,Execution worker,5,main]) started.
+
+> Task :capacitor-android:generateDebugResources UP-TO-DATE
+Caching disabled for task ':capacitor-android:generateDebugResources' because:
+  Build cache is disabled
+Skipping task ':capacitor-android:generateDebugResources' as it is up-to-date.
+Resolve mutations for :capacitor-android:packageDebugResources (Thread[#591,Execution worker,5,main]) started.
+:capacitor-android:packageDebugResources (Thread[#591,Execution worker,5,main]) started.
+
+> Task :capacitor-android:packageDebugResources UP-TO-DATE
+Caching disabled for task ':capacitor-android:packageDebugResources' because:
+  Build cache is disabled
+Skipping task ':capacitor-android:packageDebugResources' as it is up-to-date.
+work action resolve packageDebugResources (project :capacitor-android) (Thread[#591,Execution worker,5,main]) started.
+Resolve mutations for :capacitor-app:generateDebugResValues (Thread[#591,Execution worker,5,main]) started.
+:capacitor-app:generateDebugResValues (Thread[#591,Execution worker,5,main]) started.
+
+> Task :capacitor-app:generateDebugResValues UP-TO-DATE
+Caching disabled for task ':capacitor-app:generateDebugResValues' because:
+  Build cache is disabled
+Skipping task ':capacitor-app:generateDebugResValues' as it is up-to-date.
+Resolve mutations for :capacitor-app:generateDebugResources (Thread[#591,Execution worker,5,main]) started.
+:capacitor-app:generateDebugResources (Thread[#591,Execution worker,5,main]) started.
+
+> Task :capacitor-app:generateDebugResources UP-TO-DATE
+Caching disabled for task ':capacitor-app:generateDebugResources' because:
+  Build cache is disabled
+Skipping task ':capacitor-app:generateDebugResources' as it is up-to-date.
+Resolve mutations for :capacitor-app:packageDebugResources (Thread[#591,Execution worker,5,main]) started.
+:capacitor-app:packageDebugResources (Thread[#591,Execution worker,5,main]) started.
+
+> Task :capacitor-app:packageDebugResources UP-TO-DATE
+Caching disabled for task ':capacitor-app:packageDebugResources' because:
+  Build cache is disabled
+Skipping task ':capacitor-app:packageDebugResources' as it is up-to-date.
+work action resolve packageDebugResources (project :capacitor-app) (Thread[#591,Execution worker,5,main]) started.
+Resolve mutations for :capacitor-cordova-android-plugins:generateDebugResValues (Thread[#591,Execution worker,5,main]) started.
+:capacitor-cordova-android-plugins:generateDebugResValues (Thread[#591,Execution worker,5,main]) started.
+
+> Task :capacitor-cordova-android-plugins:generateDebugResValues UP-TO-DATE
+Caching disabled for task ':capacitor-cordova-android-plugins:generateDebugResValues' because:
+  Build cache is disabled
+Skipping task ':capacitor-cordova-android-plugins:generateDebugResValues' as it is up-to-date.
+Resolve mutations for :capacitor-cordova-android-plugins:generateDebugResources (Thread[#591,Execution worker,5,main]) started.
+:capacitor-cordova-android-plugins:generateDebugResources (Thread[#591,Execution worker,5,main]) started.
+
+> Task :capacitor-cordova-android-plugins:generateDebugResources UP-TO-DATE
+Caching disabled for task ':capacitor-cordova-android-plugins:generateDebugResources' because:
+  Build cache is disabled
+Skipping task ':capacitor-cordova-android-plugins:generateDebugResources' as it is up-to-date.
+Resolve mutations for :capacitor-cordova-android-plugins:packageDebugResources (Thread[#591,Execution worker,5,main]) started.
+:capacitor-cordova-android-plugins:packageDebugResources (Thread[#591,Execution worker,5,main]) started.
+
+> Task :capacitor-cordova-android-plugins:packageDebugResources UP-TO-DATE
+Caching disabled for task ':capacitor-cordova-android-plugins:packageDebugResources' because:
+  Build cache is disabled
+Skipping task ':capacitor-cordova-android-plugins:packageDebugResources' as it is up-to-date.
+work action resolve packageDebugResources (project :capacitor-cordova-android-plugins) (Thread[#591,Execution worker,5,main]) started.
+Resolve mutations for :capacitor-firebase-authentication:generateDebugResValues (Thread[#591,Execution worker,5,main]) started.
+:capacitor-firebase-authentication:generateDebugResValues (Thread[#591,Execution worker,5,main]) started.
+
+> Task :capacitor-firebase-authentication:generateDebugResValues UP-TO-DATE
+Caching disabled for task ':capacitor-firebase-authentication:generateDebugResValues' because:
+  Build cache is disabled
+Skipping task ':capacitor-firebase-authentication:generateDebugResValues' as it is up-to-date.
+Resolve mutations for :capacitor-firebase-authentication:generateDebugResources (Thread[#591,Execution worker,5,main]) started.
+:capacitor-firebase-authentication:generateDebugResources (Thread[#591,Execution worker,5,main]) started.
+
+> Task :capacitor-firebase-authentication:generateDebugResources UP-TO-DATE
+Caching disabled for task ':capacitor-firebase-authentication:generateDebugResources' because:
+  Build cache is disabled
+Skipping task ':capacitor-firebase-authentication:generateDebugResources' as it is up-to-date.
+Resolve mutations for :capacitor-firebase-authentication:packageDebugResources (Thread[#591,Execution worker,5,main]) started.
+:capacitor-firebase-authentication:packageDebugResources (Thread[#591,Execution worker,5,main]) started.
+
+> Task :capacitor-firebase-authentication:packageDebugResources UP-TO-DATE
+Caching disabled for task ':capacitor-firebase-authentication:packageDebugResources' because:
+  Build cache is disabled
+Skipping task ':capacitor-firebase-authentication:packageDebugResources' as it is up-to-date.
+work action resolve packageDebugResources (project :capacitor-firebase-authentication) (Thread[#591,Execution worker,5,main]) started.
+Resolve mutations for :app:mapDebugSourceSetPaths (Thread[#591,Execution worker,5,main]) started.
+:app:mapDebugSourceSetPaths (Thread[#591,Execution worker,5,main]) started.
+
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\node_modules\@capacitor-firebase\authentication\android\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\node_modules\@capacitor\app\android\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\node_modules\@capacitor\android\capacitor\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\capacitor-cordova-android-plugins\src\main\libs', not found
+Caching disabled for task ':app:mapDebugSourceSetPaths' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:mapDebugSourceSetPaths' as it is up-to-date.
+Resolve mutations for :app:generateDebugResources (Thread[#591,Execution worker,5,main]) started.
+:app:generateDebugResources (Thread[#591,Execution worker,5,main]) started.
+
+> Task :app:generateDebugResources UP-TO-DATE
+Caching disabled for task ':app:generateDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:generateDebugResources' as it is up-to-date.
+Resolve mutations for :app:mergeDebugResources (Thread[#591,Execution worker,5,main]) started.
+:app:mergeDebugResources (Thread[#591,Execution worker,5,main]) started.
+
+> Task :app:mergeDebugResources UP-TO-DATE
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\node_modules\@capacitor-firebase\authentication\android\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\node_modules\@capacitor\app\android\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\node_modules\@capacitor\android\capacitor\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\capacitor-cordova-android-plugins\src\main\libs', not found
+Caching disabled for task ':app:mergeDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:mergeDebugResources' as it is up-to-date.
+Resolve mutations for :app:packageDebugResources (Thread[#591,Execution worker,5,main]) started.
+:app:packageDebugResources (Thread[#591,Execution worker,5,main]) started.
+
+> Task :app:packageDebugResources UP-TO-DATE
+Caching disabled for task ':app:packageDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:packageDebugResources' as it is up-to-date.
+Resolve mutations for :app:parseDebugLocalResources (Thread[#591,Execution worker,5,main]) started.
+:app:parseDebugLocalResources (Thread[#591,Execution worker,5,main]) started.
+
+> Task :app:parseDebugLocalResources UP-TO-DATE
+Caching disabled for task ':app:parseDebugLocalResources' because:
+  Build cache is disabled
+Skipping task ':app:parseDebugLocalResources' as it is up-to-date.
+Resolve mutations for :app:createDebugCompatibleScreenManifests (Thread[#593,Execution worker Thread 3,5,main]) started.
+:app:createDebugCompatibleScreenManifests (Thread[#593,Execution worker Thread 3,5,main]) started.
+
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+Caching disabled for task ':app:createDebugCompatibleScreenManifests' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:createDebugCompatibleScreenManifests' as it is up-to-date.
+Resolve mutations for :app:extractDeepLinksDebug (Thread[#593,Execution worker Thread 3,5,main]) started.
+:app:extractDeepLinksDebug (Thread[#593,Execution worker Thread 3,5,main]) started.
+
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+Caching disabled for task ':app:extractDeepLinksDebug' because:
+  Build cache is disabled
+Skipping task ':app:extractDeepLinksDebug' as it is up-to-date.
+Resolve mutations for :capacitor-android:extractDeepLinksDebug (Thread[#593,Execution worker Thread 3,5,main]) started.
+:capacitor-android:extractDeepLinksDebug (Thread[#593,Execution worker Thread 3,5,main]) started.
+
+> Task :capacitor-android:extractDeepLinksDebug UP-TO-DATE
+Caching disabled for task ':capacitor-android:extractDeepLinksDebug' because:
+  Build cache is disabled
+Skipping task ':capacitor-android:extractDeepLinksDebug' as it is up-to-date.
+work action resolve navigation.json (project :capacitor-android) (Thread[#593,Execution worker Thread 3,5,main]) started.
+Resolve mutations for :capacitor-android:processDebugManifest (Thread[#593,Execution worker Thread 3,5,main]) started.
+:capacitor-android:processDebugManifest (Thread[#593,Execution worker Thread 3,5,main]) started.
+
+> Task :capacitor-android:processDebugManifest UP-TO-DATE
+Caching disabled for task ':capacitor-android:processDebugManifest' because:
+  Build cache is disabled
+Skipping task ':capacitor-android:processDebugManifest' as it is up-to-date.
+work action resolve AndroidManifest.xml (project :capacitor-android) (Thread[#593,Execution worker Thread 3,5,main]) started.
+Resolve mutations for :capacitor-app:extractDeepLinksDebug (Thread[#593,Execution worker Thread 3,5,main]) started.
+:capacitor-app:extractDeepLinksDebug (Thread[#593,Execution worker Thread 3,5,main]) started.
+
+> Task :capacitor-app:extractDeepLinksDebug UP-TO-DATE
+Caching disabled for task ':capacitor-app:extractDeepLinksDebug' because:
+  Build cache is disabled
+Skipping task ':capacitor-app:extractDeepLinksDebug' as it is up-to-date.
+work action resolve navigation.json (project :capacitor-app) (Thread[#593,Execution worker Thread 3,5,main]) started.
+Resolve mutations for :capacitor-app:processDebugManifest (Thread[#593,Execution worker Thread 3,5,main]) started.
+:capacitor-app:processDebugManifest (Thread[#593,Execution worker Thread 3,5,main]) started.
+
+> Task :capacitor-app:processDebugManifest UP-TO-DATE
+Caching disabled for task ':capacitor-app:processDebugManifest' because:
+  Build cache is disabled
+Skipping task ':capacitor-app:processDebugManifest' as it is up-to-date.
+work action resolve AndroidManifest.xml (project :capacitor-app) (Thread[#593,Execution worker Thread 3,5,main]) started.
+Resolve mutations for :capacitor-cordova-android-plugins:extractDeepLinksDebug (Thread[#596,Execution worker Thread 6,5,main]) started.
+:capacitor-cordova-android-plugins:extractDeepLinksDebug (Thread[#596,Execution worker Thread 6,5,main]) started.
+
+> Task :capacitor-cordova-android-plugins:extractDeepLinksDebug UP-TO-DATE
+Caching disabled for task ':capacitor-cordova-android-plugins:extractDeepLinksDebug' because:
+  Build cache is disabled
+Skipping task ':capacitor-cordova-android-plugins:extractDeepLinksDebug' as it is up-to-date.
+work action resolve navigation.json (project :capacitor-cordova-android-plugins) (Thread[#596,Execution worker Thread 6,5,main]) started.
+Resolve mutations for :capacitor-cordova-android-plugins:processDebugManifest (Thread[#596,Execution worker Thread 6,5,main]) started.
+:capacitor-cordova-android-plugins:processDebugManifest (Thread[#596,Execution worker Thread 6,5,main]) started.
+
+> Task :capacitor-cordova-android-plugins:processDebugManifest UP-TO-DATE
+Caching disabled for task ':capacitor-cordova-android-plugins:processDebugManifest' because:
+  Build cache is disabled
+Skipping task ':capacitor-cordova-android-plugins:processDebugManifest' as it is up-to-date.
+work action resolve AndroidManifest.xml (project :capacitor-cordova-android-plugins) (Thread[#596,Execution worker Thread 6,5,main]) started.
+Resolve mutations for :capacitor-firebase-authentication:extractDeepLinksDebug (Thread[#596,Execution worker Thread 6,5,main]) started.
+:capacitor-firebase-authentication:extractDeepLinksDebug (Thread[#596,Execution worker Thread 6,5,main]) started.
+
+> Task :capacitor-firebase-authentication:extractDeepLinksDebug UP-TO-DATE
+Caching disabled for task ':capacitor-firebase-authentication:extractDeepLinksDebug' because:
+  Build cache is disabled
+Skipping task ':capacitor-firebase-authentication:extractDeepLinksDebug' as it is up-to-date.
+work action resolve navigation.json (project :capacitor-firebase-authentication) (Thread[#596,Execution worker Thread 6,5,main]) started.
+Resolve mutations for :capacitor-firebase-authentication:processDebugManifest (Thread[#596,Execution worker Thread 6,5,main]) started.
+:capacitor-firebase-authentication:processDebugManifest (Thread[#596,Execution worker Thread 6,5,main]) started.
+
+> Task :capacitor-firebase-authentication:processDebugManifest UP-TO-DATE
+Caching disabled for task ':capacitor-firebase-authentication:processDebugManifest' because:
+  Build cache is disabled
+Skipping task ':capacitor-firebase-authentication:processDebugManifest' as it is up-to-date.
+work action resolve AndroidManifest.xml (project :capacitor-firebase-authentication) (Thread[#596,Execution worker Thread 6,5,main]) started.
+Resolve mutations for :app:processDebugMainManifest (Thread[#596,Execution worker Thread 6,5,main]) started.
+:app:processDebugMainManifest (Thread[#596,Execution worker Thread 6,5,main]) started.
+
+> Task :app:processDebugMainManifest UP-TO-DATE
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\node_modules\@capacitor-firebase\authentication\android\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\node_modules\@capacitor\app\android\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\node_modules\@capacitor\android\capacitor\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\capacitor-cordova-android-plugins\src\main\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\node_modules\@capacitor-firebase\authentication\android\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\node_modules\@capacitor\app\android\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\node_modules\@capacitor\android\capacitor\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\capacitor-cordova-android-plugins\src\main\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\node_modules\@capacitor-firebase\authentication\android\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\node_modules\@capacitor\app\android\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\node_modules\@capacitor\android\capacitor\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\capacitor-cordova-android-plugins\src\main\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\node_modules\@capacitor-firebase\authentication\android\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\node_modules\@capacitor\app\android\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\node_modules\@capacitor\android\capacitor\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\capacitor-cordova-android-plugins\src\main\libs', not found
+Caching disabled for task ':app:processDebugMainManifest' because:
+  Build cache is disabled
+Skipping task ':app:processDebugMainManifest' as it is up-to-date.
+Resolve mutations for :app:processDebugManifest (Thread[#596,Execution worker Thread 6,5,main]) started.
+:app:processDebugManifest (Thread[#596,Execution worker Thread 6,5,main]) started.
+
+> Task :app:processDebugManifest UP-TO-DATE
+Caching disabled for task ':app:processDebugManifest' because:
+  Build cache is disabled
+Skipping task ':app:processDebugManifest' as it is up-to-date.
+Resolve mutations for :app:processDebugManifestForPackage (Thread[#596,Execution worker Thread 6,5,main]) started.
+:app:processDebugManifestForPackage (Thread[#596,Execution worker Thread 6,5,main]) started.
+
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+Custom actions are attached to task ':app:processDebugManifestForPackage'.
+Caching disabled for task ':app:processDebugManifestForPackage' because:
+  Build cache is disabled
+Skipping task ':app:processDebugManifestForPackage' as it is up-to-date.
+Resolve mutations for :capacitor-android:compileDebugLibraryResources (Thread[#596,Execution worker Thread 6,5,main]) started.
+:capacitor-android:compileDebugLibraryResources (Thread[#596,Execution worker Thread 6,5,main]) started.
+
+> Task :capacitor-android:compileDebugLibraryResources UP-TO-DATE
+Caching disabled for task ':capacitor-android:compileDebugLibraryResources' because:
+  Build cache is disabled
+Skipping task ':capacitor-android:compileDebugLibraryResources' as it is up-to-date.
+work action resolve out (project :capacitor-android) (Thread[#596,Execution worker Thread 6,5,main]) started.
+Resolve mutations for :capacitor-android:parseDebugLocalResources (Thread[#596,Execution worker Thread 6,5,main]) started.
+:capacitor-android:parseDebugLocalResources (Thread[#596,Execution worker Thread 6,5,main]) started.
+
+> Task :capacitor-android:parseDebugLocalResources UP-TO-DATE
+Caching disabled for task ':capacitor-android:parseDebugLocalResources' because:
+  Build cache is disabled
+Skipping task ':capacitor-android:parseDebugLocalResources' as it is up-to-date.
+Resolve mutations for :capacitor-android:generateDebugRFile (Thread[#596,Execution worker Thread 6,5,main]) started.
+:capacitor-android:generateDebugRFile (Thread[#596,Execution worker Thread 6,5,main]) started.
+
+> Task :capacitor-android:generateDebugRFile UP-TO-DATE
+Caching disabled for task ':capacitor-android:generateDebugRFile' because:
+  Build cache is disabled
+Skipping task ':capacitor-android:generateDebugRFile' as it is up-to-date.
+work action resolve package-aware-r.txt (project :capacitor-android) (Thread[#591,Execution worker,5,main]) started.
+Resolve mutations for :capacitor-app:compileDebugLibraryResources (Thread[#591,Execution worker,5,main]) started.
+:capacitor-app:compileDebugLibraryResources (Thread[#591,Execution worker,5,main]) started.
+
+> Task :capacitor-app:compileDebugLibraryResources UP-TO-DATE
+Caching disabled for task ':capacitor-app:compileDebugLibraryResources' because:
+  Build cache is disabled
+Skipping task ':capacitor-app:compileDebugLibraryResources' as it is up-to-date.
+work action resolve out (project :capacitor-app) (Thread[#591,Execution worker,5,main]) started.
+Resolve mutations for :capacitor-app:parseDebugLocalResources (Thread[#591,Execution worker,5,main]) started.
+:capacitor-app:parseDebugLocalResources (Thread[#591,Execution worker,5,main]) started.
+
+> Task :capacitor-app:parseDebugLocalResources UP-TO-DATE
+Caching disabled for task ':capacitor-app:parseDebugLocalResources' because:
+  Build cache is disabled
+Skipping task ':capacitor-app:parseDebugLocalResources' as it is up-to-date.
+Resolve mutations for :capacitor-app:generateDebugRFile (Thread[#591,Execution worker,5,main]) started.
+:capacitor-app:generateDebugRFile (Thread[#591,Execution worker,5,main]) started.
+
+> Task :capacitor-app:generateDebugRFile UP-TO-DATE
+Caching disabled for task ':capacitor-app:generateDebugRFile' because:
+  Build cache is disabled
+Skipping task ':capacitor-app:generateDebugRFile' as it is up-to-date.
+work action resolve package-aware-r.txt (project :capacitor-app) (Thread[#591,Execution worker,5,main]) started.
+Resolve mutations for :capacitor-cordova-android-plugins:compileDebugLibraryResources (Thread[#591,Execution worker,5,main]) started.
+:capacitor-cordova-android-plugins:compileDebugLibraryResources (Thread[#591,Execution worker,5,main]) started.
+
+> Task :capacitor-cordova-android-plugins:compileDebugLibraryResources UP-TO-DATE
+Caching disabled for task ':capacitor-cordova-android-plugins:compileDebugLibraryResources' because:
+  Build cache is disabled
+Skipping task ':capacitor-cordova-android-plugins:compileDebugLibraryResources' as it is up-to-date.
+work action resolve out (project :capacitor-cordova-android-plugins) (Thread[#591,Execution worker,5,main]) started.
+Resolve mutations for :capacitor-cordova-android-plugins:parseDebugLocalResources (Thread[#591,Execution worker,5,main]) started.
+:capacitor-cordova-android-plugins:parseDebugLocalResources (Thread[#591,Execution worker,5,main]) started.
+
+> Task :capacitor-cordova-android-plugins:parseDebugLocalResources UP-TO-DATE
+Caching disabled for task ':capacitor-cordova-android-plugins:parseDebugLocalResources' because:
+  Build cache is disabled
+Skipping task ':capacitor-cordova-android-plugins:parseDebugLocalResources' as it is up-to-date.
+Resolve mutations for :capacitor-cordova-android-plugins:generateDebugRFile (Thread[#591,Execution worker,5,main]) started.
+:capacitor-cordova-android-plugins:generateDebugRFile (Thread[#591,Execution worker,5,main]) started.
+
+> Task :capacitor-cordova-android-plugins:generateDebugRFile UP-TO-DATE
+Caching disabled for task ':capacitor-cordova-android-plugins:generateDebugRFile' because:
+  Build cache is disabled
+Skipping task ':capacitor-cordova-android-plugins:generateDebugRFile' as it is up-to-date.
+work action resolve package-aware-r.txt (project :capacitor-cordova-android-plugins) (Thread[#591,Execution worker,5,main]) started.
+Resolve mutations for :capacitor-firebase-authentication:compileDebugLibraryResources (Thread[#591,Execution worker,5,main]) started.
+:capacitor-firebase-authentication:compileDebugLibraryResources (Thread[#591,Execution worker,5,main]) started.
+
+> Task :capacitor-firebase-authentication:compileDebugLibraryResources UP-TO-DATE
+Caching disabled for task ':capacitor-firebase-authentication:compileDebugLibraryResources' because:
+  Build cache is disabled
+Skipping task ':capacitor-firebase-authentication:compileDebugLibraryResources' as it is up-to-date.
+work action resolve out (project :capacitor-firebase-authentication) (Thread[#591,Execution worker,5,main]) started.
+Resolve mutations for :capacitor-firebase-authentication:parseDebugLocalResources (Thread[#591,Execution worker,5,main]) started.
+:capacitor-firebase-authentication:parseDebugLocalResources (Thread[#591,Execution worker,5,main]) started.
+
+> Task :capacitor-firebase-authentication:parseDebugLocalResources UP-TO-DATE
+Caching disabled for task ':capacitor-firebase-authentication:parseDebugLocalResources' because:
+  Build cache is disabled
+Skipping task ':capacitor-firebase-authentication:parseDebugLocalResources' as it is up-to-date.
+Resolve mutations for :capacitor-firebase-authentication:generateDebugRFile (Thread[#591,Execution worker,5,main]) started.
+:capacitor-firebase-authentication:generateDebugRFile (Thread[#591,Execution worker,5,main]) started.
+
+> Task :capacitor-firebase-authentication:generateDebugRFile UP-TO-DATE
+Caching disabled for task ':capacitor-firebase-authentication:generateDebugRFile' because:
+  Build cache is disabled
+Skipping task ':capacitor-firebase-authentication:generateDebugRFile' as it is up-to-date.
+work action resolve package-aware-r.txt (project :capacitor-firebase-authentication) (Thread[#591,Execution worker,5,main]) started.
+Resolve mutations for :app:processDebugResources (Thread[#591,Execution worker,5,main]) started.
+:app:processDebugResources (Thread[#591,Execution worker,5,main]) started.
+
+> Task :app:processDebugResources UP-TO-DATE
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\node_modules\@capacitor-firebase\authentication\android\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\node_modules\@capacitor\app\android\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\node_modules\@capacitor\android\capacitor\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\capacitor-cordova-android-plugins\src\main\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\node_modules\@capacitor-firebase\authentication\android\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\node_modules\@capacitor\app\android\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\node_modules\@capacitor\android\capacitor\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\capacitor-cordova-android-plugins\src\main\libs', not found
+Registered task dependencies: app:debugCompileClasspath
+Skipping misunderstood TO dep string: androidx.compose.ui:ui-tooling
+Skipping misunderstood TO dep string: org.jetbrains.kotlin:kotlin-stdlib
+Skipping misunderstood TO dep string: org.jetbrains.kotlin:kotlin-stdlib
+Skipping misunderstood TO dep string: org.jetbrains.kotlin:kotlin-stdlib
+Skipping misunderstood TO dep string: org.jetbrains.kotlin:kotlin-stdlib
+Skipping misunderstood TO dep string: androidx.compose.ui:ui-test-manifest
+Skipping misunderstood TO dep string: org.jetbrains.kotlin:kotlin-stdlib
+Skipping misunderstood TO dep string: project :capacitor-android
+Skipping misunderstood TO dep string: project :capacitor-cordova-android-plugins
+Skipping misunderstood TO dep string: com.google.firebase:firebase-auth
+Skipping misunderstood TO dep string: androidx.compose.ui:ui
+Skipping misunderstood TO dep string: androidx.compose.ui:ui-graphics
+Skipping misunderstood TO dep string: androidx.compose.ui:ui-tooling-preview
+Skipping misunderstood TO dep string: androidx.compose.material3:material3
+Skipping misunderstood TO dep string: androidx.compose.material:material-icons-extended
+Skipping misunderstood TO dep string: androidx.compose.animation:animation
+Skipping misunderstood TO dep string: androidx.compose.foundation:foundation
+Skipping misunderstood TO dep string: project :capacitor-firebase-authentication
+Skipping misunderstood TO dep string: project :capacitor-app
+Starting dependency analysis
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\libs', not found
+Caching disabled for task ':app:processDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:processDebugResources' as it is up-to-date.
+Resolve mutations for :capacitor-android:javaPreCompileDebug (Thread[#591,Execution worker,5,main]) started.
+:capacitor-android:javaPreCompileDebug (Thread[#591,Execution worker,5,main]) started.
+
+> Task :capacitor-android:javaPreCompileDebug UP-TO-DATE
+Caching disabled for task ':capacitor-android:javaPreCompileDebug' because:
+  Build cache is disabled
+Skipping task ':capacitor-android:javaPreCompileDebug' as it is up-to-date.
+Resolve mutations for :capacitor-android:compileDebugJavaWithJavac (Thread[#591,Execution worker,5,main]) started.
+:capacitor-android:compileDebugJavaWithJavac (Thread[#591,Execution worker,5,main]) started.
+
+> Task :capacitor-android:compileDebugJavaWithJavac UP-TO-DATE
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\node_modules\@capacitor\android\capacitor\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\node_modules\@capacitor\android\capacitor\libs', not found
+Custom actions are attached to task ':capacitor-android:compileDebugJavaWithJavac'.
+Caching disabled for task ':capacitor-android:compileDebugJavaWithJavac' because:
+  Build cache is disabled
+Skipping task ':capacitor-android:compileDebugJavaWithJavac' as it is up-to-date.
+No compile result for :capacitor-android:compileDebugJavaWithJavac
+No compile result for :capacitor-android:compileDebugJavaWithJavac
+Resolve mutations for :capacitor-android:bundleLibCompileToJarDebug (Thread[#591,Execution worker,5,main]) started.
+:capacitor-android:bundleLibCompileToJarDebug (Thread[#591,Execution worker,5,main]) started.
+
+> Task :capacitor-android:bundleLibCompileToJarDebug UP-TO-DATE
+Caching disabled for task ':capacitor-android:bundleLibCompileToJarDebug' because:
+  Build cache is disabled
+  Simple merging task
+Skipping task ':capacitor-android:bundleLibCompileToJarDebug' as it is up-to-date.
+work action resolve classes.jar (project :capacitor-android) (Thread[#591,Execution worker,5,main]) started.
+Resolve mutations for :capacitor-app:javaPreCompileDebug (Thread[#591,Execution worker,5,main]) started.
+:capacitor-app:javaPreCompileDebug (Thread[#591,Execution worker,5,main]) started.
+
+> Task :capacitor-app:javaPreCompileDebug UP-TO-DATE
+Caching disabled for task ':capacitor-app:javaPreCompileDebug' because:
+  Build cache is disabled
+Skipping task ':capacitor-app:javaPreCompileDebug' as it is up-to-date.
+Resolve mutations for :capacitor-app:compileDebugJavaWithJavac (Thread[#591,Execution worker,5,main]) started.
+:capacitor-app:compileDebugJavaWithJavac (Thread[#591,Execution worker,5,main]) started.
+
+> Task :capacitor-app:compileDebugJavaWithJavac UP-TO-DATE
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\node_modules\@capacitor\app\android\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\node_modules\@capacitor\app\android\libs', not found
+Custom actions are attached to task ':capacitor-app:compileDebugJavaWithJavac'.
+Caching disabled for task ':capacitor-app:compileDebugJavaWithJavac' because:
+  Build cache is disabled
+Skipping task ':capacitor-app:compileDebugJavaWithJavac' as it is up-to-date.
+No compile result for :capacitor-app:compileDebugJavaWithJavac
+No compile result for :capacitor-app:compileDebugJavaWithJavac
+Resolve mutations for :capacitor-app:bundleLibCompileToJarDebug (Thread[#591,Execution worker,5,main]) started.
+:capacitor-app:bundleLibCompileToJarDebug (Thread[#591,Execution worker,5,main]) started.
+
+> Task :capacitor-app:bundleLibCompileToJarDebug UP-TO-DATE
+Caching disabled for task ':capacitor-app:bundleLibCompileToJarDebug' because:
+  Build cache is disabled
+  Simple merging task
+Skipping task ':capacitor-app:bundleLibCompileToJarDebug' as it is up-to-date.
+work action resolve classes.jar (project :capacitor-app) (Thread[#591,Execution worker,5,main]) started.
+Resolve mutations for :capacitor-cordova-android-plugins:javaPreCompileDebug (Thread[#591,Execution worker,5,main]) started.
+:capacitor-cordova-android-plugins:javaPreCompileDebug (Thread[#591,Execution worker,5,main]) started.
+
+> Task :capacitor-cordova-android-plugins:javaPreCompileDebug UP-TO-DATE
+Caching disabled for task ':capacitor-cordova-android-plugins:javaPreCompileDebug' because:
+  Build cache is disabled
+Skipping task ':capacitor-cordova-android-plugins:javaPreCompileDebug' as it is up-to-date.
+Resolve mutations for :capacitor-cordova-android-plugins:compileDebugJavaWithJavac (Thread[#591,Execution worker,5,main]) started.
+:capacitor-cordova-android-plugins:compileDebugJavaWithJavac (Thread[#591,Execution worker,5,main]) started.
+
+> Task :capacitor-cordova-android-plugins:compileDebugJavaWithJavac NO-SOURCE
+Skipping task ':capacitor-cordova-android-plugins:compileDebugJavaWithJavac' as it has no source files and no previous output files.
+Resolve mutations for :capacitor-cordova-android-plugins:bundleLibCompileToJarDebug (Thread[#591,Execution worker,5,main]) started.
+:capacitor-cordova-android-plugins:bundleLibCompileToJarDebug (Thread[#591,Execution worker,5,main]) started.
+
+> Task :capacitor-cordova-android-plugins:bundleLibCompileToJarDebug UP-TO-DATE
+Caching disabled for task ':capacitor-cordova-android-plugins:bundleLibCompileToJarDebug' because:
+  Build cache is disabled
+  Simple merging task
+Skipping task ':capacitor-cordova-android-plugins:bundleLibCompileToJarDebug' as it is up-to-date.
+work action resolve classes.jar (project :capacitor-cordova-android-plugins) (Thread[#591,Execution worker,5,main]) started.
+Resolve mutations for :capacitor-firebase-authentication:javaPreCompileDebug (Thread[#591,Execution worker,5,main]) started.
+:capacitor-firebase-authentication:javaPreCompileDebug (Thread[#591,Execution worker,5,main]) started.
+
+> Task :capacitor-firebase-authentication:javaPreCompileDebug UP-TO-DATE
+Caching disabled for task ':capacitor-firebase-authentication:javaPreCompileDebug' because:
+  Build cache is disabled
+Skipping task ':capacitor-firebase-authentication:javaPreCompileDebug' as it is up-to-date.
+Resolve mutations for :capacitor-firebase-authentication:compileDebugJavaWithJavac (Thread[#591,Execution worker,5,main]) started.
+:capacitor-firebase-authentication:compileDebugJavaWithJavac (Thread[#591,Execution worker,5,main]) started.
+
+> Task :capacitor-firebase-authentication:compileDebugJavaWithJavac UP-TO-DATE
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\node_modules\@capacitor-firebase\authentication\android\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\node_modules\@capacitor-firebase\authentication\android\libs', not found
+Custom actions are attached to task ':capacitor-firebase-authentication:compileDebugJavaWithJavac'.
+Caching disabled for task ':capacitor-firebase-authentication:compileDebugJavaWithJavac' because:
+  Build cache is disabled
+Skipping task ':capacitor-firebase-authentication:compileDebugJavaWithJavac' as it is up-to-date.
+No compile result for :capacitor-firebase-authentication:compileDebugJavaWithJavac
+No compile result for :capacitor-firebase-authentication:compileDebugJavaWithJavac
+Resolve mutations for :capacitor-firebase-authentication:bundleLibCompileToJarDebug (Thread[#591,Execution worker,5,main]) started.
+:capacitor-firebase-authentication:bundleLibCompileToJarDebug (Thread[#591,Execution worker,5,main]) started.
+
+> Task :capacitor-firebase-authentication:bundleLibCompileToJarDebug UP-TO-DATE
+Caching disabled for task ':capacitor-firebase-authentication:bundleLibCompileToJarDebug' because:
+  Build cache is disabled
+  Simple merging task
+Skipping task ':capacitor-firebase-authentication:bundleLibCompileToJarDebug' as it is up-to-date.
+work action resolve classes.jar (project :capacitor-firebase-authentication) (Thread[#591,Execution worker,5,main]) started.
+Resolve mutations for :app:compileDebugKotlin (Thread[#591,Execution worker,5,main]) started.
+:app:compileDebugKotlin (Thread[#591,Execution worker,5,main]) started.
+
+> Task :app:compileDebugKotlin
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\libs', not found
+Registered task dependencies: app:kotlinCompilerClasspath
+Starting dependency analysis
+Registered task dependencies: app:kotlinCompilerPluginClasspathDebug
+Starting dependency analysis
+Caching disabled for task ':app:compileDebugKotlin' because:
+  Build cache is disabled
+Task ':app:compileDebugKotlin' is not up-to-date because:
+  Task has failed previously.
+The input changes require a full rebuild for incremental task ':app:compileDebugKotlin'.
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\debug\kotlin', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\debug\kotlin', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\debug\java', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\debug\java', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\debug\kotlin', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\debug\java', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\main\kotlin', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\main\kotlin', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\main\kotlin', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\debug\java', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\debug\kotlin', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\debug\kotlin', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\debug\java', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\debug\java', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\debug\kotlin', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\debug\java', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\main\kotlin', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\main\kotlin', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\libs', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\debug\kotlin', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\debug\kotlin', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\debug\java', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\debug\java', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\debug\kotlin', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\debug\java', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\main\kotlin', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\main\kotlin', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\main\kotlin', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\debug\java', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\debug\kotlin', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\debug\kotlin', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\debug\java', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\debug\java', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\debug\kotlin', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\debug\java', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\main\kotlin', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\main\kotlin', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\main\kotlin', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\debug\java', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\debug\kotlin', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\debug\kotlin', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\debug\java', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\debug\java', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\debug\kotlin', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\debug\java', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\main\kotlin', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\main\kotlin', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\main\kotlin', not found
+file or directory 'C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\debug\java', not found
+Kotlin source files: C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\main\java\com\credpos\app\blockchain\BlockchainRepository.kt, C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\main\java\com\credpos\app\blockchain\CryptoNetwork.kt, C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\main\java\com\credpos\app\blockchain\plugin\BlockchainWalletPlugin.kt, C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\main\java\com\credpos\app\blockchain\sui\SuiRepository.kt, C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\main\java\com\credpos\app\blockchain\tezos\TezosRepository.kt, C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\main\java\com\credpos\app\blockchain\WalletViewModel.kt, C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\main\java\com\credpos\app\MainActivity.kt, C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\main\java\com\credpos\app\ui\components\NetworkSwitcher.kt, C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\main\java\com\credpos\app\ui\components\WalletConnectionCard.kt, C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\main\java\com\credpos\app\ui\screens\WalletScreen.kt, C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\main\java\com\credpos\app\ui\theme\Theme.kt, C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\main\java\com\credpos\app\ui\theme\Type.kt, C:\Users\PANZ AUTO\Documents\CredPOS\android\app\src\main\java\com\credpos\app\ui\WalletActivity.kt
+Java source files: 
+Script source files: 
+Script file extensions: 
+Using Kotlin/JVM incremental compilation
+[KOTLIN] Kotlin compilation 'jdkHome' argument: null
+i: found daemon on port 17668 (188555 ms old), trying to connect
+i: connected to the daemon
+Options for KOTLIN DAEMON: IncrementalCompilationOptions(super=CompilationOptions(compilerMode=INCREMENTAL_COMPILER, targetPlatform=JVM, reportCategories=[0, 3], reportSeverity=2, requestedCompilationResults=[0], kotlinScriptExtensions=[]), areFileChangesKnown=false, modifiedFiles=null, deletedFiles=null, classpathChanges=NotAvailableForNonIncrementalRun, workingDir=C:\Users\PANZ AUTO\Documents\CredPOS\android\app\build\kotlin\compileDebugKotlin\cacheable, multiModuleICSettings=MultiModuleICSettings(buildHistoryFile=C:\Users\PANZ AUTO\Documents\CredPOS\android\app\build\kotlin\compileDebugKotlin\local-state\build-history.bin, useModuleDetection=true), usePreciseJavaTracking=true, outputFiles=[C:\Users\PANZ AUTO\Documents\CredPOS\android\app\build\tmp\kotlin-classes\debug, C:\Users\PANZ AUTO\Documents\CredPOS\android\app\build\kotlin\compileDebugKotlin\cacheable, C:\Users\PANZ AUTO\Documents\CredPOS\android\app\build\kotlin\compileDebugKotlin\local-state])
+.\gradlew : e: file:///C:/Us
+ers/PANZ%20AUTO/.gradle/cach
+es/8.14.3/transforms/b793f6f
+64d3111077cd33bf989018eeb/tr
+ansformed/firebase-auth-24.0
+.1-api.jar!/META-INF/java.co
+m.google.android.gmscore.int
+eg.client.firebase-auth-api_
+firebase-auth-api.kotlin_mod
+uleModule was compiled with 
+an incompatible version of 
+Kotlin. The binary version 
+of its metadata is 2.1.0, 
+expected version is 1.9.0.
+At line:1 char:1
++ .\gradlew 
+compileDebugKotlin --info 
+2>&1 | Out-File -FilePath 
+kotlin_ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~
+    + CategoryInfo          
+    : NotSpecified: (e: fi  
+  le:///C:/U...rsion is 1   
+ .9.0.:String) [], Remot    
+eException
+    + FullyQualifiedErrorId 
+    : NativeCommandError
+ 
+
+> Task :app:compileDebugKotlin FAILED
+
+[Incubating] Problems report is available at: file:///C:/Users/PANZ%20AUTO/Documents/CredPOS/android/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with 
+an exception.
+
+* What went wrong:
+Execution failed for task 
+':app:compileDebugKotlin'.
+> A failure occurred while 
+executing org.jetbrains.kotl
+in.compilerRunner.GradleComp
+ilerRunnerWithWorkers$Gradle
+KotlinCompilerWorkAction
+   > Compilation error. See 
+log for more details
+
+* Try:
+> Run with --stacktrace 
+option to get the stack 
+trace.
+> Run with --debug option 
+to get more log output.
+> Run with --scan to get 
+full insights.
+> Get more help at 
+https://help.gradle.org.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.14.3/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+69 actionable tasks: 2 executed, 67 up-to-date
+Watched directory hierarchies: [C:\Users\PANZ AUTO\Documents\CredPOS\android]
+
+BUILD FAILED in 9s

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">CredPOS</string>
+    <string name="title_activity_main">CredPOS</string>
+    <string name="package_name">com.credpos.app</string>
+    <string name="custom_url_scheme">com.credpos.app</string>
+    <!-- Web Client ID from Firebase Console for Google Sign-In -->
+    <string name="default_web_client_id">322176258286-v0cel8753hpqmq5vgnssj8ggd1lpdu2d.apps.googleusercontent.com</string>
+</resources>

@@ -52,12 +52,10 @@ One app, multiple blockchains. CredPOS eliminates the complexity of Web3 integra
 
 ## 📱 Application Preview
 
-| Dashboard | Wallet Connect | Transaction |
+| Dashboard | Wallet Connect | Settings |
 |:---:|:---:|:---:|
-| *Intuitive POS Interface* | *Multi-Chain Selector* | *Fast & Secure Payment* |
-| ![Screen 1](https://via.placeholder.com/150x300?text=POS+Dashboard) | ![Screen 2](https://via.placeholder.com/150x300?text=Wallet+Connect) | ![Screen 3](https://via.placeholder.com/150x300?text=Transaction) |
-
-*(Note: Actual screenshots are available in the demo video)*
+| *Intuitive POS Interface* | *Multi-Chain Selector* | *Backup & Configuration* |
+| <img src="screenshots/dashboard.png" width="250"/> | <img src="screenshots/wallet.png" width="250"/> | <img src="screenshots/settings.png" width="250"/> |
 
 ---
 

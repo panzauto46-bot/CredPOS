@@ -1,68 +1,91 @@
-# 📱 CredPOS Mobile App
+# 📱 CredPOS Mobile: The DeFi-Integrated Point of Sale
 
-**DeFi-Integrated Point of Sale Solution for Android**
+![CredPOS Banner](https://img.shields.io/badge/CredPOS-Mobile_App-blue?style=for-the-badge&logo=android)
+![Kotlin](https://img.shields.io/badge/Kotlin-1.9.0-purple?style=flat-square&logo=kotlin)
+![Jetpack Compose](https://img.shields.io/badge/UI-Jetpack_Compose-green?style=flat-square&logo=android)
+![Tezos](https://img.shields.io/badge/Blockchain-Tezos_Ghostnet-blue?style=flat-square&logo=tezos)
+![Sui](https://img.shields.io/badge/Blockchain-Sui_Devnet-4ea8de?style=flat-square&logo=sui)
 
-The CredPOS Mobile App bridges the gap between traditional retail Point of Sale systems and decentralized finance (DeFi). It allows merchants and users to interact with blockchain networks directly from their mobile devices, enabling features like crypto-backed credit scoring and seamless wallet connectivity.
+> **"Bridging the Gap Between Traditional Retail and Decentralized Finance."**
+
+---
+
+## 🚀 Overview
+
+**CredPOS Mobile** is a cutting-edge Android application engineered for the modern merchant. Unlike standard POS systems, CredPOS integrates **Multi-Chain Wallet Connectivity**, allowing users to leverage their on-chain reputation for credit scoring.
+
+Built with **Native Android (Kotlin)** and a custom **Capacitor Bridge**, it delivers a seamless, high-performance experience that works offline and syncs instantly when connected.
 
 ---
 
 ## 🌟 Key Features
 
 ### 🔗 **Multi-Chain Wallet Connect**
-- **Consolidated Interface**: Connect seamlessly to multiple blockchain networks from a single app.
-- **Supported Networks**:
-    - **Tezos (Ghostnet)**: Integration effectively via TZIP-10 beacon-like patterns.
-    - **Sui (Devnet)**: Direct integration with Sui Wallet standards.
-- **Wallet Detection**: Automatically detects installed wallets (Temple, AirGap, Sui Wallet, Ethos, etc.) and guides users if no wallet is found.
+One app, multiple blockchains. CredPOS eliminates the complexity of Web3 integration.
+- **Tezos (Ghostnet)**: Seamless integration via **Beacon-like** TZIP-10 patterns.
+- **Sui (Devnet)**: Native support for **Sui Wallet** standards.
+- **Smart Tech**: Auto-detects installed wallets (Temple, AirGap, Sui Wallet, Ethos).
 
-### 🛡️ **Secure Architecture**
-- **Non-Custodial**: The app never stores private keys. All signing operations are delegated to external wallet apps.
-- **Network Switcher**: Architecture designed to safely switch between different blockchain environments without state pollution.
-- **Encrypted Local Storage**: Sensitive session data is stored using Android's encrypted SharedPreferences.
+### 💳 **Revolutionary Credit Scoring**
+- **On-Chain Identity**: Sign your credit score directly to the blockchain.
+- **Immutable Reputation**: Build a verifiable financial history that follows you everywhere.
+- **Non-Custodial**: We never touch your private keys. You stay in control.
 
-### 💳 **Merchant Tools**
-- **Credit Score Signing**: unique feature allowing users to sign their credit scores on-chain for immutable reputation tracking.
-- **Offline-First**: Built to function in low-connectivity environments, syncing data when connections are restored.
-
----
-
-## 🛠️ Architecture & Tech Stack
-
-- **Platform**: Native Android (Kotlin) & Hybrid Bridge
-- **UI Toolkit**: [Jetpack Compose](https://developer.android.com/jetpack/compose) (Modern, declarative UI)
-- **Architecture**: MVVM (Model-View-ViewModel) with Clean Architecture principles.
-- **Bridge Technology**: Capacitor (Custom Plugins for Blockchain communication)
-- **Blockchain Integration**:
-    - `CryptoNetwork` Sealed Classes for type-safe network handling.
-    - Repository Pattern for abstracting wallet operations.
+### 🛡️ **Enterprise-Grade Security**
+- **Encrypted Storage**: Sensitive session data is AES-256 encrypted using Android's Keystore system.
+- **Secure Bridge**: Custom-built native bridge ensures safe communication between the Web UI and native blockchain SDKs.
+- **Sandboxed Execution**: Every transaction runs in a secure, isolated environment.
 
 ---
 
-## 📂 Project Structure Overview
+## 🛠️ Technology Stack
+
+| Component | Technology | Description |
+|-----------|------------|-------------|
+| **Core** | **Kotlin** | Native Android development for maximum performance. |
+| **UI** | **Jetpack Compose** | Modern, declarative UI toolkit for beautiful interfaces. |
+| **Architecture** | **MVVM + Clean** | Scalable, testable, and maintainable code structure. |
+| **Bridge** | **Capacitor** | High-speed communication layer for hybrid features. |
+| **Blockchain** | **Tezos & Sui SDKs** | Direct integration with blockchain networks. |
+
+---
+
+## 📱 Application Preview
+
+| Dashboard | Wallet Connect | Transaction |
+|:---:|:---:|:---:|
+| *Intuitive POS Interface* | *Multi-Chain Selector* | *Fast & Secure Payment* |
+| ![Screen 1](https://via.placeholder.com/150x300?text=POS+Dashboard) | ![Screen 2](https://via.placeholder.com/150x300?text=Wallet+Connect) | ![Screen 3](https://via.placeholder.com/150x300?text=Transaction) |
+
+*(Note: Actual screenshots are available in the demo video)*
+
+---
+
+## 📂 Project Architecture
+
+A glimpse into our clean code structure:
 
 ```kotlin
 com.credpos.app
-├── blockchain/         # Core Blockchain Logic
-│   ├── CryptoNetwork.kt      # Network Definitions (Tezos/Sui)
-│   ├── BlockchainRepository.kt # Wallet Interfaces
-│   └── plugin/               # Capacitor Bridge
-├── ui/                 # Jetpack Compose UI
-│   ├── components/           # NetworkSwitcher, WalletCard
-│   └── screens/              # Main Screens
-└── viewmodel/          # State Management
+├── blockchain/         # 🧠 Core Blockchain Logic & Network Switching
+│   ├── CryptoNetwork.kt      # Type-safe Network Definitions
+│   └── BlockchainRepository.kt # Abstracted Wallet Operations
+├── ui/                 # 🎨 Beautiful Jetpack Compose UI
+│   ├── components/           # Reusable Design System
+│   └── screens/              # Feature-rich Screens
+└── viewmodel/          # ⚡ Reactive State Management (Coroutines/Flow)
 ```
 
 ---
 
+## 🏆 Hackathon Submission Details
 
-## 🔐 Security & Hackathon Note
+This repository represents the **Mobile Client** of the CredPOS ecosystem.
 
-This repository contains the source code for the CredPOS Mobile App.
-
-**For Jury & Evaluators:**
-- **APK Download**: Please verify the functionality using the provided APK file.
-- **Demo Video**: Refer to the submission video for a walkthrough of the multi-chain connection features.
+- ** APK Download**: [Link to APK (Google Drive)]
+- ** Demo Video**: [Link to Video]
+- ** Web Dashboard**: [Link to Web Repo]
 
 ---
 
-*Built with ❤️ for the Hacktoon Competition.*
+*Built with ❤️ by the CredPOS Team for Hacktoon 2026.*
